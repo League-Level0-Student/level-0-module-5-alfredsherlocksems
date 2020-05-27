@@ -35,24 +35,31 @@ rob.move(50);
 rob.turn(60);			
 			
 			// #12. set the pen color to blue for even numbers of i
-
+if (i % 2 == 0) {
+	rob.setPenColor(Color.blue);
+}
 			
 			// #13. set the pen color to red for all odd numbers of i
-			
+else {
+	rob.setPenColor(Color.red);
 }
+
 			// #9. Use a for loop to do everything (#10, #11) 6 times ( use j as a counter )
+			for (int j = 0; j < 6; j++) {
+				
 			
-			
-					// #10. turn the robot to the left by 60
 		
+					// #10. turn the robot to the left by 60
+		rob.turn(-60);
 					
 					// #11. move the robot by 50 (play the start button)
-					
+				rob.move(50);
 				
-			
-			// #14. set the pen color to black
-				
-	
 	}
+			// #14. set the pen color to black
+				rob.setPenColor(Color.black);
+	
+}
+}
 
 }
