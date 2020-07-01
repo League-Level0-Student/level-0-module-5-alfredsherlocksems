@@ -9,7 +9,9 @@ public class HappyPet {
 	public static void main(String[] args) {
 		// 1. Ask the user what kind of pet they want to buy, and store their answer in a variable
 String pet = JOptionPane.showInputDialog("What kind of animal would you like?");
-		// 7. REPEAT steps 3 - 6 enough times to make your pet happy!
+String name = JOptionPane.showInputDialog("What's your pet's name?");	
+
+// 7. REPEAT steps 3 - 6 enough times to make your pet happy!
 		
 			// 3. Use showOptionDialog to ask the user what they want to do to make their pet happy
 			//    (eg: cuddle, food, water, take a walk, groom, clean up poop).
@@ -27,4 +29,46 @@ String pet = JOptionPane.showInputDialog("What kind of animal would you like?");
 	// 4. Create methods to handle each of your user selections.
 	//    Each method should create a pop-up with the pet's response (eg. cat might purr when pet), 
 	//    and INCREMENT the pet's happiness Level.
+     static void Response1a(String pet, String name) {
+	JOptionPane.showMessageDialog(null, "Your " + pet + ", " + name + ", ");
 }
+     static void Response1b(String pet, String name) {
+    	 JOptionPane.showMessageDialog(null, "Your " + pet + ", " + name + ", ");	
+     }
+     static void Response1c(String pet, String name) {
+    	 JOptionPane.showMessageDialog(null, "Your " + pet + ", " + name + ", ");
+	
+     }
+     static void Response2a(String pet, String name) {
+    	 JOptionPane.showMessageDialog(null, "Your " + pet + ", " + name + ", ");
+
+     } 
+     static void Response2b(String pet, String name) {
+    	 JOptionPane.showMessageDialog(null, "Your " + pet + ", " + name + ", ");
+
+  }
+     static void Response2c(String pet, String name) {
+    	 JOptionPane.showMessageDialog(null, "Your " + pet + ", " + name + ", ");
+	
+}
+  static void Response3a(String pet, String name) {
+	  JOptionPane.showMessageDialog(null, "Your " + pet + ", " + name + ", ");
+
+} 
+static void Response3b(String pet, String name) {
+	JOptionPane.showMessageDialog(null, "Your " + pet + ", " + name + ", ");
+
+} 
+static void Response3c(String pet, String name) {
+	JOptionPane.showMessageDialog(null, "Your " + pet + ", " + name + ", ");
+
+}
+
+
+
+
+}
+     
+     
+     
+     
