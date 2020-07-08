@@ -30,37 +30,39 @@ String name = JOptionPane.showInputDialog("What's your pet's name?");
 	//    Each method should create a pop-up with the pet's response (eg. cat might purr when pet), 
 	//    and INCREMENT the pet's happiness Level.
      static void Response1a(String pet, String name) {
-	JOptionPane.showMessageDialog(null, "Your " + pet + ", " + name + ", ");
-}
+	JOptionPane.showMessageDialog(null, "Your " + pet + ", " + name + ", is happy and energized. Their happiness level has increased.");
+happinessLevel +=1;
+     }
      static void Response1b(String pet, String name) {
-    	 JOptionPane.showMessageDialog(null, "Your " + pet + ", " + name + ", ");	
+    	 JOptionPane.showMessageDialog(null, "Your " + pet + ", " + name + ", is frustrated. You put barely any effort to play with them. Their happiness level has decreased.");	
+     happinessLevel -=3;
      }
      static void Response1c(String pet, String name) {
-    	 JOptionPane.showMessageDialog(null, "Your " + pet + ", " + name + ", ");
-	
+    	 JOptionPane.showMessageDialog(null, "Your " + pet + ", " + name + ", really enjoyed playing with you, and was grateful that you played with them for a long time.Their happiness level has increased.");
+	happinessLevel +=2;
      }
      static void Response2a(String pet, String name) {
-    	 JOptionPane.showMessageDialog(null, "Your " + pet + ", " + name + ", ");
-
+    	 JOptionPane.showMessageDialog(null, "Your " + pet + ", " + name + ", is happy that all their poo is all cleaned up and that it doesn't smell as bad. Their happiness level has increased.");
+happinessLevel +=3;
      } 
      static void Response2b(String pet, String name) {
-    	 JOptionPane.showMessageDialog(null, "Your " + pet + ", " + name + ", ");
-
+    	 JOptionPane.showMessageDialog(null, "Your " + pet + ", " + name + ", doesn't like that you didn't clean the poo very well and that there is some left. Their happiness level has decreased.");
+happinessLevel --;
   }
      static void Response2c(String pet, String name) {
-    	 JOptionPane.showMessageDialog(null, "Your " + pet + ", " + name + ", ");
-	
+    	 JOptionPane.showMessageDialog(null, "Your " + pet + ", " + name + ", isn't happy that it took you 3 days to clean their poo. Their happiness level has decreased.");
+	happinessLevel -=2;
 }
   static void Response3a(String pet, String name) {
-	  JOptionPane.showMessageDialog(null, "Your " + pet + ", " + name + ", ");
-
+	  JOptionPane.showMessageDialog(null, "Your " + pet + ", " + name + ", is very happy because you found a really nice clearing where you and them had a splendid time!!! Their happiness level has increased.");
+happinessLevel +=4;
 } 
 static void Response3b(String pet, String name) {
-	JOptionPane.showMessageDialog(null, "Your " + pet + ", " + name + ", ");
-
+	JOptionPane.showMessageDialog(null, "Your " + pet + ", " + name + ", is upset because you instantly managed to hurt yourself and had a scratch on your foot so you went back home with them. They also didn't like seeing you upset about getting the scratch. Their happiness level has decreased.");
+happinessLevel -=3;
 } 
 static void Response3c(String pet, String name) {
-	JOptionPane.showMessageDialog(null, "Your " + pet + ", " + name + ", ");
+	JOptionPane.showMessageDialog(null, "Your " + pet + ", " + name + ", enjoyed themselves but you explored for a short amount of time. Their happiness level is the same.");
 
 }
 
