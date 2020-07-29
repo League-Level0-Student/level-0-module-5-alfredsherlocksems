@@ -29,9 +29,28 @@ int ran = new Random().nextInt(20);
 	System.out.println(ran1);
 	int difference = ran - ran1;
 	int difference1 = ran1 - ran;
-	
-	
-	
+	if (ran > ran1) {
+		JOptionPane.showMessageDialog(null, "The difference between " + ran + " and  " + ran1 + " is " + difference + ".");
+	}
+	if (ran < ran1) {
+		JOptionPane.showMessageDialog(null, "The difference between " + ran1 + " and  " + ran + " is " + difference1 + ".");
+	}
+	String city = JOptionPane.showInputDialog("What city do  you live in?");
+	String san = "San Diego";
+	if (city.equals(san)) {
+	JOptionPane.showMessageDialog(null, "You live in America's finest city!");
+	}
+	else {
+		JOptionPane.showMessageDialog(null, "If you want move to San Diego!");
+	}
+	String car = JOptionPane.showInputDialog("How many cars does your family have?");
+	int cars = Integer.parseInt(car);
+	if (cars == 0) {
+		JOptionPane.showMessageDialog(null, "I bet you use public transportation!");
+	}
+	else if (cars == 1) {
+		JOptionPane.showMessageDialog(null, ");
+	}
 	}
 
 }
