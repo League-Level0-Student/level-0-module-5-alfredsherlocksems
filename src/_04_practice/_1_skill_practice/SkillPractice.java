@@ -49,8 +49,22 @@ int ran = new Random().nextInt(20);
 		JOptionPane.showMessageDialog(null, "I bet you use public transportation!");
 	}
 	else if (cars == 1) {
-		JOptionPane.showMessageDialog(null, ");
+		String cartype = JOptionPane.showInputDialog("What's the model/type?");
+		JOptionPane.showMessageDialog(null, "Cool, you have a " + cartype + "!");
 	}
+	else if (cars > 1){
+		int wheels = cars  * 4;
+JOptionPane.showMessageDialog(null, "The cars have " + wheels + " wheels in total.");
+ 	}
+	String school = JOptionPane.showInputDialog("What's the name of your school?");
+		JOptionPane.showMessageDialog(null, "Your school, " + school + ", is a fantastic school!");	
 	}
 
 }
+
+
+
+
+
+
+
